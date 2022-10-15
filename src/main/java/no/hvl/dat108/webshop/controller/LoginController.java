@@ -18,7 +18,7 @@ public class LoginController {
 
     @Value("${app.message.invalidUsername}") private String INVALID_USERNAME_MESSAGE;
     @Value("${app.url.login}") private String LOGIN_URL;
-    @Value("${app.url.logout}") private String WEBSHOP_URL;
+    @Value("${app.url.webshop}") private String WEBSHOP_URL;
 
     @GetMapping
     public String getLoginView() { return "loginView"; }

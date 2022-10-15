@@ -43,7 +43,7 @@ public class WebshopController {
         }
 
         Cart cart = (Cart) session.getAttribute("cart");
-        if (items != null && items.contains("pants")) {
+        if (items != null && items.contains("Pants")) {
             cart.addItems(new CartItem("Pants", 699));
         }
         if (items != null && items.contains("Sweater")) {

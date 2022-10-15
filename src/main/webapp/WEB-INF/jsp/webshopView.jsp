@@ -28,7 +28,7 @@
     <form action="webshop" method="post">
         <fieldset><legend>Shop</legend>
             <input type="checkbox" name="item" value="Pants"/>Pants<br/>
-            <input type="checkbox" name="item" value="Sweater"/>Pants<br/>
+            <input type="checkbox" name="item" value="Sweater"/>Sweater<br/>
             <p><input type="submit" value="Add to cart"></p>
         </fieldset>
     </form>
